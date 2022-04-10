@@ -1,5 +1,5 @@
-peach
-bread
-chocolate
-wine
-milk
+peach x 1
+bread x 2 
+chocolate x 3
+wine x 4
+milk x 5
