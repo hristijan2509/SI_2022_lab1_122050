@@ -1,0 +1,114 @@
+git clone https://github.com/hristijan2509/SI_2022_lab1_1220500.git
+git add . 
+git commit -m "Add 5 items to the shopping list"
+git commit -a -m "Add quantities to the items"
+git branch branch1
+git branch branch2
+git log
+commit b960c85d2e1769830fe3107abc9460f9bcab188d (HEAD -> master, branch2, branch1)
+Author: hristijan.ristovski <hristijan.ristovski@DESKTOP-DE5FLME>
+Date:   Mon Apr 11 00:10:45 2022 +0200
+
+    Add quantities to the items
+
+commit f6fb6551cf9b38c4089bff9caab900e3498879dc
+Author: hristijan.ristovski <hristijan.ristovski@DESKTOP-DE5FLME>
+Date:   Mon Apr 11 00:10:02 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit eecf4db782513f55ec9c2ea935c1843291c8c719 (origin/master, origin/HEAD)
+Author: hristijan2509 <52156764+hristijan2509@users.noreply.github.com>
+Date:   Mon Apr 11 00:07:53 2022 +0200
+
+    Update README.md
+
+commit 82361b4b2d8f11fd07b89d0ab557b1a2727a105a
+Author: hristijan2509 <52156764+hristijan2509@users.noreply.github.com>
+Date:   Mon Apr 11 00:07:32 2022 +0200
+
+    Initial commit
+_________________________________________________
+git push -u origin --all
+git checkout branch1
+git add .
+git commit -m "Change quantity of item #5" 
+git checkout main
+git add .
+git commit -m "Change quantity of item #2"
+git push -u origin --all
+git checkout branch2
+git add .
+git commit -m "Modify item #4"
+git log
+
+commit ce128b0d96c2488933652dd59f75e29323ea9537 (HEAD -> branch2)
+Author: hristijan.ristovski <hristijan.ristovski@DESKTOP-DE5FLME>
+Date:   Mon Apr 11 00:14:26 2022 +0200
+
+    Modify item #4
+
+commit b960c85d2e1769830fe3107abc9460f9bcab188d (origin/branch2)
+Author: hristijan.ristovski <hristijan.ristovski@DESKTOP-DE5FLME>
+Date:   Mon Apr 11 00:10:45 2022 +0200
+
+    Add quantities to the items
+
+commit f6fb6551cf9b38c4089bff9caab900e3498879dc
+Author: hristijan.ristovski <hristijan.ristovski@DESKTOP-DE5FLME>
+Date:   Mon Apr 11 00:10:02 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit eecf4db782513f55ec9c2ea935c1843291c8c719
+Author: hristijan2509 <52156764+hristijan2509@users.noreply.github.com>
+Date:   Mon Apr 11 00:07:53 2022 +0200
+
+    Update README.md
+
+commit 82361b4b2d8f11fd07b89d0ab557b1a2727a105a
+Author: hristijan2509 <52156764+hristijan2509@users.noreply.github.com>
+Date:   Mon Apr 11 00:07:32 2022 +0200
+
+    Initial commit
+______________________________________________________________________
+git add .
+git commit --amend -m "Modify item #4 and add item #6"
+git log
+commit 97bbbf7e859938c8944bf59701791dfd94ef9457 (HEAD -> branch2)
+Author: hristijan.ristovski <hristijan.ristovski@DESKTOP-DE5FLME>
+Date:   Mon Apr 11 00:14:26 2022 +0200
+
+    Modify item #4 and add item #6
+
+commit b960c85d2e1769830fe3107abc9460f9bcab188d (origin/branch2)
+Author: hristijan.ristovski <hristijan.ristovski@DESKTOP-DE5FLME>
+Date:   Mon Apr 11 00:10:45 2022 +0200
+
+    Add quantities to the items
+
+commit f6fb6551cf9b38c4089bff9caab900e3498879dc
+Author: hristijan.ristovski <hristijan.ristovski@DESKTOP-DE5FLME>
+Date:   Mon Apr 11 00:10:02 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit eecf4db782513f55ec9c2ea935c1843291c8c719
+Author: hristijan2509 <52156764+hristijan2509@users.noreply.github.com>
+Date:   Mon Apr 11 00:07:53 2022 +0200
+
+    Update README.md
+
+commit 82361b4b2d8f11fd07b89d0ab557b1a2727a105a
+Author: hristijan2509 <52156764+hristijan2509@users.noreply.github.com>
+Date:   Mon Apr 11 00:07:32 2022 +0200
+
+    Initial commit
+git checkout master
+git merge branch1
+git merge branch2
+git add .
+git commit -m "Add docs"
+git push -u origin --all
+git status
+
