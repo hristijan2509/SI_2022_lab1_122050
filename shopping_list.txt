@@ -1,5 +1,6 @@
 peach x 1
 bread x 5 
 chocolate x 3
-wine x 4
+beer x 4
 milk x 1
+water x 2
