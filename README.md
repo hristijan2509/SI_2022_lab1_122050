@@ -1,1 +1,1 @@
-# SI_2022_lab1_12205000
+Hristijan Ristovski 122050
